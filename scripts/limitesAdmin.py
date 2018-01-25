@@ -3,7 +3,7 @@ import shutil
 import zipfile
 
 # Descargar el archivo zip, si hay otro archivo con el mismo nombre lo sobreescribe
-os.system("curl -# -f -O http://centrodedescargas.cnig.es/CentroDescargas/equipamiento/lineas_limite.zip")
+os.system('curl  http://centrodedescargas.cnig.es/CentroDescargas/descargaDir --compressed --data "secuencialDescDir=9000029&aceptCodsLicsDD_0=15" > lineas_limite.zip')
 
 # Comprobamos que el archivo se ha descargado
 if os.path.isfile('lineas_limite.zip'):

@@ -8,7 +8,7 @@ import shutil
 import rarfile
 
 # Descargar el archivo zip, si hay otro archivo con el mismo nombre lo sobreescribe
-os.system("curl -# -f -O http://www.magrama.gob.es/es/cartografia-y-sig/ide/descargas/agricultura/ComarcasAgrarias_tcm7-162216.rar")
+os.system("curl -# http://www.mapama.gob.es/es/cartografia-y-sig/ide/descargas/agricultura/ComarcasAgrarias_tcm7-162216.rar > ComarcasAgrarias_tcm7-162216.rar")
 
 # Comprobamos que el archivo se ha descargado
 if os.path.isfile('ComarcasAgrarias_tcm7-162216.rar'):

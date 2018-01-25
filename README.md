@@ -16,8 +16,8 @@ Puedes obtener más información en:
 ## Comunidades, Provincias y Municipios.
 
 ### Datos 
-Los datos los descargaremos del Centro Geográfico Nacional ([enlace directo] (http://centrodedescargas.cnig.es/CentroDescargas/equipamiento/lineas_limite.zip))
- o bien en [datos.gob.es] (http://datos.gob.es/catalogo/lineas-limite-jurisdiccionales-de-espana-0).
+Los datos los descargaremos del [Centro Geográfico Nacional](http://centrodedescargas.cnig.es/CentroDescargas/equipamiento.do?method=mostrarEquipamiento)
+ o bien en [datos.gob.es](http://datos.gob.es/catalogo/e00125901-lineas-limite-municipales).
 
 Al descomprimir el archivo Zip encontraremos los shapefiles formados por las líneas que delimitan los límites administrativos y otras carpetas con los shapefiles de los recintos. Nos quedaremos con estos últimos y son los que convertiremos a GeoJSON. 
 
